@@ -1,16 +1,3 @@
-from openpyxl import Workbook
-from openpyxl.utils import get_column_letter
-from openpyxl.styles import Alignment, Font
-import serial
-import time
-import os
-import requests
-from requests.auth import HTTPBasicAuth
-import re
-import logging
-from datetime import datetime
-from collections import OrderedDict
-
 # API details for power cycling
 apiUrl = "http://172.20.97.2/rps"
 apiUser = "root"
